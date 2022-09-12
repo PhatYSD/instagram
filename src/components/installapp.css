@@ -1,0 +1,35 @@
+.block_3 {
+  height: 100px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.block_3 .top {
+  color: var(--color-text-parmary);
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+
+.block_3 div a img {
+  width: 136px;
+  height: 40px;
+}
+
+.block_3 .bottom {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media screen and (max-width: 640px) {
+  .block_3 * {
+    margin: 0;
+  }
+}

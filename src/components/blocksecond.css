@@ -1,0 +1,10 @@
+.block_2 {
+  max-width: 350px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-bg-block);
+  outline: 1px solid var(--color-bg-line);
+  margin-top: 1rem;
+}

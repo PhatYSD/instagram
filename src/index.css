@@ -1,0 +1,21 @@
+:root {
+  --color-bg-block: #FFFFFF;
+  --color-bg-parmary: #FAFAFA;
+  --color-bg-line: #DBDBDB;
+  --color-bg-button: #0095F64D;
+
+  --color-text-white: #FFFFFF;
+  --color-text-face: #0095F6;
+  --color-text-other: #8E8E8E;
+  --color-text-logface: #385185;
+  --color-text-forget: #00376B;
+  --color-text-parmary: #262626;
+  --color-text-black: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
